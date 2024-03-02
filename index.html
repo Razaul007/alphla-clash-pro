@@ -17,16 +17,16 @@
 <body class="font-poppins">
 <main class="bg-[#010313] min-h-screen bg-[url(images/background.png)] bg-no-repeat bg-center">
     <!-- Home section -->
-    <section class="home min-h-screen text-white flex flex-col justify-center items-center">
+    <section id="home-screen" class="min-h-screen text-white flex flex-col justify-center items-center">
          <div class="flex flex-col items-center gap-10">
             <h1 class="text-8xl font-anton">ALPHA CLASH PRO</h1>
             <p>Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
-            <button class="btn bg-white text-black">Play Now</button>
+            <button onclick="play()" class="btn bg-white text-black">Play Now</button>
          </div>
     </section>
 
     <!-- Play Ground section -->
-    <section class="play-ground hidden">
+    <section id="play-ground" class=" hidden">
         <div class="flex flex-col items-center gap-20 pt-12">
             <!-- screen -->
             <div>
@@ -101,6 +101,7 @@
             <p>Practice will make you a Pro.</p>
          </div>
     </section>
+    <script src="scripts/alpha-clash.js"></script>
 </main>
 
 </body>
